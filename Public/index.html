@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Võ Trần Phương Thanh 62131904 Tạo ví rút tiền (javascript)</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="detail-money">
+            <h2>SỐ DƯ CỦA TÔI</h2>
+            <input type="text" name="" id="detail-money" readonly value="">
+        </div>
+        <div class="amount-money">
+            <h2>RÚT TIỀN MẶT</h2>
+            <div class="amount-money-input">
+                <span>&#8363;</span>
+                <input type="text" name="" id="amount-money" placeholder="Nhập số tiền muốn rút">
+                <button id="amount-money-all" onclick="Tatca()">TẤT CẢ</button>
+            </div>
+            <hr class="a">
+            <div class="nhiem-vu">
+                <i class="fa fa-calendar-check-o" aria-hidden="true" id="b"></i>
+                
+                <button id="misso-1" onclick="Misson1()">Nhiệm vụ 1</button>
+                <input type="text" name="" class="money-mission-input" id="money-misson-1" readonly>
+                <i class="fa fa-angle-right" aria-hidden="true" id="c"></i>
+            </div>
+            <hr class="a">
+            <br>
+            <hr class="a">
+            <div class="nhiem-vu">
+                <i class="fa fa-calendar-check-o" aria-hidden="true" id="b"></i>
+                <button id="misso-2" onclick="Misson2()">Nhiệm vụ 2</button>
+                <input type="text" name="" class="money-mission-input" id="money-misson-2" readonly>
+                <i class="fa fa-angle-right" aria-hidden="true" id="c"></i>
+            </div>
+            <hr class="a">
+            <br>
+            <hr class="a">
+            <div class="nhiem-vu">
+                <i class="fa fa-calendar-check-o" aria-hidden="true" id="b"></i>
+                <button id="misso-3" onclick="Misson3()">Nhiệm vụ 3</button>
+                <input type="text" name="" class="money-mission-input" id="money-misson-3" readonly>
+                <i class="fa fa-angle-right" aria-hidden="true" id="c"></i>
+            </div>
+            <hr class="a">
+            <br>
+            <hr class="a">
+            <div class="nhiem-vu">
+                <i class="fa fa-calendar-check-o" aria-hidden="true" id="b"></i>
+                <button id="misso-4" onclick="Misson4()">Nhiệm vụ 4</button>
+                <input type="text" name="" class="money-mission-input" id="money-misson-4" readonly>
+                <i class="fa fa-angle-right" aria-hidden="true" id="c"></i>
+            </div>
+            <hr class="a">
+            <br>
+            <button id="rut-tien" onclick="Ruttien()">Rút tiền</button>
+            <br>
+        </div>
+    </div>
+</body>
+
+</html>

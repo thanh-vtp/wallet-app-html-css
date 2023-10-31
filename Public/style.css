@@ -1,0 +1,184 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.container {
+  width: 35%;
+  min-height: 600px;
+  margin: auto;
+  display: block;
+}
+
+.detail-money {
+  width: 100%;
+  min-height: 180px;
+  border-radius: 15px;
+  border: 1px solid black;
+  text-align: left;
+  padding-left: 30px;
+  line-height: 2.5;
+  padding-top: 18px;
+  background-color: rgb(240, 99, 47);
+  color: white;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.detail-money input {
+  font-size: 50px;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  font-family: Verdana, Arial, Geneva, sans-serif;
+  color: white;
+  background-color: rgb(240, 99, 47);
+}
+
+/* ------------- */
+
+.amount-money {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 15px;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.amount-money-input {
+  display: flex;
+  align-items: center;
+  /* canh giữa theo chiều dọc */
+  line-height: 2;
+}
+
+.amount-money-input span {
+  font-size: 50px;
+  /* Kích thước phù hợp cho icon tiền tệ */
+  margin-right: 10px;
+  /* Khoảng cách giữa icon và input */
+  content: "\20AB";
+}
+
+.amount-money-input input {
+  flex: 1;
+  /* thẻ input sẽ chiếm hết phần còn lại trên cùng 1 hàng với span */
+  border: none;
+  /* Xóa border mặc định của input */
+  border-bottom: 1px solid black;
+  /* Thêm border chỉ dưới cho input */
+  font-size: 30px;
+  /* Kích thước phù hợp cho input */
+  max-width: 470px;
+  width: 100%;
+}
+
+.amount-money-input button {
+  margin-left: 10px;
+  margin-top: -15px;
+  background-color: rgb(181, 195, 196);
+  color: blue;
+  max-width: 80px;
+  min-height: 35px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-weight: bold;
+}
+
+.nhiem-vu {
+  display: flex;
+  align-items: center;
+}
+
+.nhiem-vu #b {
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nhiem-vu button {
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+}
+
+.nhiem-vu input {
+  margin-left: 100px;
+  /* background-color: red; */
+  flex: 1;
+  border: none;
+  max-width: 250px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 7px;
+}
+
+.nhiem-vu #c {
+  margin-left: 90px;
+  padding: 7px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.a {
+  width: 95%;
+  height: 2px;
+  background-color: black;
+  border: none;
+  align-items: center;
+}
+
+#rut-tien {
+  color: white;
+  background-color: blueviolet;
+  max-width: 100px;
+  min-height: 40px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 7px;
+  align-items: center;
+  margin: auto;
+  display: block;
+  font-size: 20px;
+}
+
+/* ---------------- */
+.custom-swal-popup {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.custom-swal-title {
+  font-size: 24px !important;
+  font-weight: bold !important;
+  margin-bottom: 16px !important;
+}
+
+.custom-swal-html-container {
+  font-size: 18px !important;
+  text-align: left !important;
+}
+
+.custom-swal-confirm-button {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  background-color: blueviolet !important;
+  border: none !important;
+  color: white;
+}
